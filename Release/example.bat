@@ -1,0 +1,1 @@
+ocr1.exe example.png 100
