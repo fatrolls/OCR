@@ -4,6 +4,27 @@ Good OCR, for game hacking captchas and other automation.
 # A very simple OCR. 
 For very ood quality input images, it outperformed both tesseract and google cloud vision ( when it was made )
 
+Example Image:<br>
+![exampleimg](https://raw.githubusercontent.com/fatrolls/OCR/master/Release/example.png)
+
+Extracted Text Output:<br>
+```
+ver:ver2
+FileType:CharactersMerged
+TEXT:5,208,15,10,0.000000,V802 CA 7900 PM3
+TEXT:5,192,9,10,0.000000,VC01_CA_34000
+TEXT:5,176,9,10,0.000000,VC01_CA_34000_PM3
+TEXT:5,160,9,10,0.000000,VC01_CA_45000
+TEXT:5,144,9,10,0.000000,VC01_CA_45000_PM3
+TEXT:5,128,9,10,0.000000,VC02_CA_34000
+TEXT:5,112,9,10,0.000000,VC02_CA_34000_PM3
+TEXT:5,96,9,10,0.000000,VC02_CA_45000
+TEXT:5,80,9,10,0.000000,VC02_CA_45000_PM3
+TEXT:5,64,9,10,0.000000,VC03_CA_45000
+TEXT:5,48,9,10,0.000000,VD01_CA_30000
+TEXT:5,32,9,10,0.000000,VD01_CA_30000_PM3
+```
+
 # Why use it :
 - simple to train
 - simple to integrate into other projects ( has dll build option )
